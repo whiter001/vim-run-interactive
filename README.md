@@ -1,3 +1,5 @@
+代码修改自https://github.com/christoomey/vim-run-interactive.git 方便window下运行定义快捷键
+
 Run Interactive
 ===============
 
@@ -44,10 +46,10 @@ recommended:
 
 ``` vim
 " Add this to your vimrc to provide a shortcut
-nnoremap <leader>ri :RunInInteractiveShell<space>
+nnoremap <leader>r :RunInInteractiveShell<space>
 ```
 
-Assuming you are using `,` as you `leader`, then you can type `,ri` in normal
+Assuming you are using `,` as you `leader`, then you can type `,r` in normal
 mode and the command name will be populated for you along with a trailing
 space. You can then enter your desired shell command and hit `enter` to run
 it.

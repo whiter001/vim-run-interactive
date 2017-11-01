@@ -1,6 +1,6 @@
 function! s:RunInInteractiveShell(command)
   let saved_shellcmdflag = &shellcmdflag
-  set shellcmdflag+=il
+  " set shellcmdflag+=il
   try
     execute '!'. a:command
   finally
